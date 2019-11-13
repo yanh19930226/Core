@@ -1,0 +1,18 @@
+﻿@using Microsoft.Extensions.Options;
+@inject IOptions<OptionSample.Class1> classattr
+@*@model OptionSample.Class1*@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @classattr.Value.ClassDes
+</body>
+</html>

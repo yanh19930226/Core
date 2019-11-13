@@ -1,0 +1,18 @@
+{
+  "classno": "1",
+  "classdes": "core",
+  "students": [
+    {
+      "name": "yanh",
+      "age": "12"
+    },
+    {
+      "name": "yanh1",
+      "age": "12"
+    },
+    {
+      "name": "yanh2",
+      "age": "12"
+    }
+  ]
+}
