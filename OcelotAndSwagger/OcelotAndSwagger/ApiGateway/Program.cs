@@ -26,9 +26,6 @@ namespace ApiGateway
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true)
                 .AddJsonFile("Ocelot.json")
                 .AddEnvironmentVariables();//从环境变量添加配置
-                //builder
-                //.SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-                //.AddJsonFile("Ocelot.json");
             })
                 .UseStartup<Startup>();
     }
