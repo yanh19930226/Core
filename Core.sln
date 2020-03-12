@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hellowVS", "hellowVS\hellowVS.csproj", "{B1105FA6-5D87-454F-9CCB-210424792F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdLineSample", "CmdLineSample\CmdLineSample.csproj", "{0559709A-A56F-4B6E-8B41-9C97FBB988F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CmdLineSample", "CmdLineSample\CmdLineSample.csproj", "{0559709A-A56F-4B6E-8B41-9C97FBB988F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonCmd", "JsonCmd\JsonCmd.csproj", "{A67DA156-380C-4B10-892F-98BDBC72DD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonCmd", "JsonCmd\JsonCmd.csproj", "{A67DA156-380C-4B10-892F-98BDBC72DD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionSample", "OptionSample\OptionSample.csproj", "{0D1DC966-2BCA-4CE6-A390-C8113C9BCEA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionSample", "OptionSample\OptionSample.csproj", "{0D1DC966-2BCA-4CE6-A390-C8113C9BCEA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcCookieSample", "MvcCookieSample\MvcCookieSample.csproj", "{14D57C27-CDDC-4516-AA6A-9064F4A416D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndentitySample", "IndentitySample\IndentitySample.csproj", "{AD1585F5-CE31-4307-B45B-FAAD503CC016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{0D1DC966-2BCA-4CE6-A390-C8113C9BCEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1DC966-2BCA-4CE6-A390-C8113C9BCEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D1DC966-2BCA-4CE6-A390-C8113C9BCEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D57C27-CDDC-4516-AA6A-9064F4A416D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D57C27-CDDC-4516-AA6A-9064F4A416D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D57C27-CDDC-4516-AA6A-9064F4A416D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D57C27-CDDC-4516-AA6A-9064F4A416D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1585F5-CE31-4307-B45B-FAAD503CC016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1585F5-CE31-4307-B45B-FAAD503CC016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1585F5-CE31-4307-B45B-FAAD503CC016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1585F5-CE31-4307-B45B-FAAD503CC016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
